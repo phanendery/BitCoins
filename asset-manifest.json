@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HoneCapital-Coding-Challenge/static/css/main.cab0ccee.chunk.css",
+    "main.js": "/HoneCapital-Coding-Challenge/static/js/main.50590295.chunk.js",
+    "main.js.map": "/HoneCapital-Coding-Challenge/static/js/main.50590295.chunk.js.map",
+    "runtime-main.js": "/HoneCapital-Coding-Challenge/static/js/runtime-main.cb7e411b.js",
+    "runtime-main.js.map": "/HoneCapital-Coding-Challenge/static/js/runtime-main.cb7e411b.js.map",
+    "static/js/2.40042ad1.chunk.js": "/HoneCapital-Coding-Challenge/static/js/2.40042ad1.chunk.js",
+    "static/js/2.40042ad1.chunk.js.map": "/HoneCapital-Coding-Challenge/static/js/2.40042ad1.chunk.js.map",
+    "index.html": "/HoneCapital-Coding-Challenge/index.html",
+    "precache-manifest.091d6d42448cfc31909ed1dbc417427b.js": "/HoneCapital-Coding-Challenge/precache-manifest.091d6d42448cfc31909ed1dbc417427b.js",
+    "service-worker.js": "/HoneCapital-Coding-Challenge/service-worker.js",
+    "static/css/main.cab0ccee.chunk.css.map": "/HoneCapital-Coding-Challenge/static/css/main.cab0ccee.chunk.css.map",
+    "static/js/2.40042ad1.chunk.js.LICENSE": "/HoneCapital-Coding-Challenge/static/js/2.40042ad1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb7e411b.js",
+    "static/js/2.40042ad1.chunk.js",
+    "static/css/main.cab0ccee.chunk.css",
+    "static/js/main.50590295.chunk.js"
+  ]
+}
