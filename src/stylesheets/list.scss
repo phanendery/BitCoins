@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+
+.search {
+  margin: 20px;
+}
+
+.search > div {
+  display: inline-block;
+  position: relative;
+}
+
+.search > div:after {
+  content: "";
+  background: black;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  transform: rotate(135deg);
+  //   box-shadow: 1px 0 #0091c2;
+}
+
+.search > div > input {
+  color: black;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px black;
+  outline: none;
+  border-radius: 35px;
+  //   box-shadow: 0 1px #0091c2;
+  transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.search > div > input::-ms-placeholder {
+  color: black;
+}
+
+.search > div > input::-ms-input-placeholder {
+  color: black;
+}
+
+.search > div > input:focus,
+.search > div > input:valid {
+  width: 250px;
+}
+
+.coinHolders {
+  border: 1px solid black;
+  width: 150px;
+}
+
+.mainCoins {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 200px;
+  margin: 5px;
+  border: 1.2px solid #791bd5;
+  border-radius: 3px;
+}
+
+.coinNameText {
+  font-family: "Varela Round", sans-serif;
+  margin-left: 10px;
+}

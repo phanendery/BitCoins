@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto Condensed", sans-serif;
+
+  .modal-main {
+    position: absolute;
+    background: #f4f3ef;
+    transform: translate(-50%, -50%);
+    height: 97vh;
+    width: 75vw;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 2);
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.coinInfoContainer {
+  transition: 0.5s;
+  max-height: 89vh;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+
+.nameAndIcon {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.currentPrice {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2789d34d;
+  box-shadow: 6px 5px 5px #d2c5c5;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 250px;
+  background: #f7f8fa;
+}
+
+.priceInfo {
+  margin-left: 35px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.highestPrice {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2789d34d;
+  box-shadow: 6px 5px 5px #d2c5c5;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 250px;
+  background: #f7f8fa;
+}
+
+.circulatingSupply {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2789d34d;
+  box-shadow: 6px 5px 5px #d2c5c5;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 300px;
+  background: #f7f8fa;
+}
+
+.totalSupply {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2789d34d;
+  box-shadow: 6px 5px 5px #d2c5c5;
+  border-radius: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 300px;
+  background: #f7f8fa;
+}
+
+.iconHolders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  // width: 400px;
+}
+
+.cirHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.iconDisplay {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.infoTxt {
+  font-size: 22px;
+}
+
+.graphHolder {
+  max-height: 42vh;
+}
+
+.chartjs-render-monitor {
+  max-width: 75vh !important;
+  max-height: 40vh !important;
+  margin: 0 auto !important;
+}
+
+.allCoins {
+  margin-left: 45px;
+}

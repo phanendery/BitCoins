@@ -1,0 +1,39 @@
+.coinList {
+  width: 150px;
+  height: 50px;
+}
+
+.coinList:hover {
+  cursor: pointer;
+}
+
+.coinHolder {
+  width: 150px;
+  height: 50px;
+}
+
+.coinSymbol {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+}
+
+.allCoins {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nameAndPic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.iconAndGraph {
+  max-height: 70vh;
+}
